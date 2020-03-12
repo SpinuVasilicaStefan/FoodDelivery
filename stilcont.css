@@ -1,0 +1,185 @@
+
+
+body{
+    background-color: #984B43;
+    background-image: url(Poze/Back.jpg);
+    background-size: cover;
+}
+ul {
+  border-radius:10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EAC67A;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  text-shadow: 3px 2px #984B43;
+  letter-spacing: 3px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: large;
+  opacity: 0.92;
+  background-size: cover;
+
+  
+    
+}
+
+.stanga {
+  float: left;
+}
+.Imagine {
+    margin-top: 1%;
+}
+.Imagine img {
+    border-radius:10px;
+    width: 100%;
+    box-shadow: 5px 10px 18px black;
+}
+.dreapta {
+    float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: black;
+  box-shadow: 0 0 25px 0 #984B43;
+  opacity: 0.4;
+
+}
+
+.galerie{
+   margin: 3%;
+}
+
+.descriere{
+    text-align: center;
+    color: floralwhite;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    opacity: 0.95;
+    font-size: 30px;
+}
+
+.card {
+    
+  background-image: url(Poze/yellow2.jpg);
+  background-size: cover;
+  box-shadow: 0 0 25px 0 black;
+  background-color: whitesmoke; 
+  max-width: 33%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-size: large;
+  margin-bottom: 5%;
+  color: whitesmoke;
+  text-shadow: 1px 1px black;
+}
+
+.price {
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.card button {
+  font-family: "Brush Script MT", "Brush Script Std", cursive;
+  font-size: large;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  opacity: 0.9;
+  background-image: url(Poze/mark.png);
+  background-size: cover;
+  border-radius:3px;
+  text-shadow: 2px 2px black
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  background-color: #EAC67A;
+  color: whitesmoke;
+  text-align: center;
+  opacity: 0.9;
+  background-image: url(Poze/napkin.jpg);
+  background-size: cover;
+}
+            
+.cont {
+
+    width:500px;
+    margin: 0 auto;
+    background-image: url(Poze/paper.jpg);
+    background-size: cover;
+    padding:5px;
+    border-radius:10px;
+    border: 2px solid black;
+    box-shadow: 0 0 25px 0 black;
+}
+
+p {
+    
+    font-size: large;
+    width:430px;
+    margin:0 auto;
+    padding:5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: floralwhite;
+    opacity: 0.95;
+    font-size: 30px;
+    text-shadow: 2px 2px black;
+}
+
+input {
+    text-shadow: 1px 1px #984B43;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    margin: auto;
+    background-color: coral;
+    padding: 5px;
+    color:white;
+    width:100%;
+    text-align:center;
+    font-size:18px;
+    font-weight: bold;
+    box-shadow: 0 0 5px 0 black
+    
+}
+
+.item {
+  
+  text-align: center;
+  border-radius:10px;
+  
+
+  letter-spacing: 1px;
+ 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  
+  margin-bottom: 7%;
+
+
+  font-size: 30px;
+}
